@@ -1,0 +1,229 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,li{
+    color: #8f8f8f;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-navbar{
+    padding: 0;
+
+}
+
+.container-title{
+    padding: 3% 15% 7%;
+    font-family: 'Montserrat', sans-serif;
+    color: #464E2E;
+}
+
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin: 0 18px; 
+}
+
+.nav-link{
+    font-size: 1.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #464E2E;
+}
+
+
+.title{
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/*Download-buttons*/
+
+.download-buttons{
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+
+.title-image{
+    width: 90%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 10px;
+}
+
+
+/*Features*/
+
+.container-feature{
+    padding: 5%;
+}
+.features-icon{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #A3DA8D;
+
+}
+
+.features-icon:hover{
+    color: #064635;
+}
+
+
+.features-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+/*Testimonials*/
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.25rem;
+}
+
+/*Press*/
+.press-logo{
+    width: 15%;
+    margin: 1.25rem 1.2rem 3.15rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*Pricing section*/
+
+.pricing-column{
+
+    padding: 3% 2%;
+}
+
+.plants-image{
+    width: 30%;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+/*Call to action section*/
+
+.cta-button{
+    margin: 5% 1.5% 0;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.cta-title{
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+/* Footer section*/
+.icon-footer{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0 0.5% 1%;
+}
+
+#title{
+    /*background-color: #4E9F3D;*/
+    background-color: #C3E5AE;
+    color: #464E2E;
+    position: relative;
+
+}
+
+.navbar-dark .navbar-brand{
+    color: #464E2E;
+}
+
+#features{
+    padding:7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #D3E4CD;
+    color: #464E2E;
+}
+
+
+#press{
+    text-align: center;
+    background-color: #D3E4CD;
+    padding-bottom: 3%;
+}
+
+#pricing{
+    padding: 6.25rem;
+    text-align: center;
+}
+
+#plantas{
+    justify-content: center;
+    background-color: #D3E4CD;
+    color: #464E2E;
+}
+
+#cta{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 20% 7%;
+    background-image: url(../images/pasto.jpg);
+}
+
+#footer{
+    background-color: #C3E5AE;
+    text-align: center;
+    padding: 7% 0 10%;
+}
+
+@media not all and (min-width: 1028px){
+
+    #title{
+        text-align: center;
+    }
+
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
+
+
+.tabla-footer{
+    margin: 0 auto 2%;
+}
+
+.fab, .fas{
+    margin: 0 10px;
+}
