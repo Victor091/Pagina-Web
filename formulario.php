@@ -51,7 +51,7 @@ if(!$enlace){
         <div class="container-fluid container-title-form">
           <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid container-navbar">
-              <a class="navbar-brand" href="#">PlantLovers</a>
+              <a class="navbar-brand" href="./index.html">PlantLovers</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -81,6 +81,7 @@ if(!$enlace){
 
 
     <section id="features">
+
         <form class="form" method='POST'>
             <h2 class="form__title">Registrate</h2>
     
@@ -107,13 +108,14 @@ if(!$enlace){
                     <label for="password" class="form__label">Contraseña:</label>
                     <span class="form__line"></span>
                 </div>
-    
+
+                <div class="g-recaptcha" data-sitekey="6LdfSFYgAAAAAKJzMDIdLUeZWBVdTZ8z1j8dW3go"></div>
+                <button class="g-recaptcha" data-sitekey="6LdfSFYgAAAAAKJzMDIdLUeZWBVdTZ8z1j8dW3go" data-callback='onSubmit'>Submit</button>
                 <input type="submit" class="form__submit" value="Entrar" name="registro">
+
             </div>
         </form>   
         
-        
-
     </section>
     <footer id="footer">
         <table class="tabla-footer">
@@ -155,6 +157,7 @@ if(!$enlace){
         const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
         const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
       </script>
+      <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </body>
 </html>

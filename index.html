@@ -30,7 +30,6 @@
 </head>
 
 <body>
-
   <section id="title">
 
     <!-- Nav Bar -->
@@ -62,9 +61,9 @@
           </div>
         </div>
       </nav>  
-  
+    
       <!-- Titulo -->
-  
+ 
       <div class="row information">
         <div class="col-lg-6">
           <h1 class="title">Encuentra las mejores plantas cerca de ti.</h1>
@@ -200,7 +199,19 @@
               <li>Mensaje ilimitados</li>
               <li>Tiempo ilimitado en la aplicación</li>
             </ul>
-            <button class="btn btn-dark btn-lg col-12" type="button" >Sign Up</button>
+            <div class="boton-animacion">
+              <button class="animacion">
+                <div class="svg-wrapper-1">
+                  <div class="svg-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path fill="none" d="M0 0h24v24H0z"></path>
+                      <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <span>Sign Up</span>
+              </button>
+          </div>
           </div>
         </div>
       </div>
@@ -218,7 +229,8 @@
               <li>Mensajes ilimitados</li>
               <li>Tiempo ilimitado en la aplicación</li>
             </ul>
-            <button class="btn btn-dark btn-lg col-12" type="button" >Sign Up</button>
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-dark btn-lg col-12" id="liveAlertBtn">Sign Up</button>
           </div>
         </div>
       </div>
@@ -289,7 +301,7 @@
         </td>
       </tr>
     </table>
-    
+
 
 
     <address>
@@ -311,6 +323,7 @@
     const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
     const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
   </script>
+  <script src="alert.js"></script>
 
 </body>
 
