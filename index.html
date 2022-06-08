@@ -25,6 +25,7 @@
   <!--Imagenes de los botones-->
   <script src="https://kit.fontawesome.com/95a4005489.js" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
 </head>
 
@@ -68,7 +69,14 @@
         <div class="col-lg-6">
           <h1 class="title">Encuentra las mejores plantas cerca de ti.</h1>
           <button type="button" class="btn btn-dark btn-lg download-buttons" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Aún no esta disponible para esta plataforma"><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-buttons"><i class="fab fa-google-play"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-buttons" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="fab fa-google-play"></i> Download</button>
+
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              Esta aplicación a llegado a miles de dispositivos. Con más de cuatro estrellas en la playstore se ha convertido en la favorita de nuestros usuarios.
+            </div>
+          </div>
+
         </div>
         <div class="col-lg-6 inner" style="position: relative;">
           <img class="title-image" src="images/suculenta.png" alt="suculenta">
@@ -175,7 +183,7 @@
               <li>10 Mensajes por día</li>
               <li>Tiempo ilimitado en la aplicación</li>
             </ul>
-            <button class="btn btn-outline-dark btn-lg col-12" type="button" >Sign Up</button>
+            <a class="btn btn-outline-dark btn-lg col-12" href="./formulario.php" type="button"> Sign Up</a>
           </div>
         </div>
       </div>  
@@ -275,7 +283,9 @@
           <a href="https://www.instagram.com/" class="icon-footer fab fa-instagram"></a>
         </td>
         <td>
-          <a href="https://outlook.live.com/owa/" class="icon-footer fas fa-envelope"></a>  
+          <a class="icon-footer glyphicon" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg></a> 
         </td>
       </tr>
     </table>
