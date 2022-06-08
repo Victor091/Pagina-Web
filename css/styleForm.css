@@ -191,5 +191,15 @@ button {
      transform: translateY(-0.1em);
     }
    }
+
+
+   video{
+    padding: 10px;
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 15%;
+ 
+   }
    
    

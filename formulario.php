@@ -110,11 +110,14 @@ if(!$enlace){
                 </div>
 
                 <div class="g-recaptcha" data-sitekey="6LdfSFYgAAAAAKJzMDIdLUeZWBVdTZ8z1j8dW3go"></div>
-                <button class="g-recaptcha" data-sitekey="6LdfSFYgAAAAAKJzMDIdLUeZWBVdTZ8z1j8dW3go" data-callback='onSubmit'>Submit</button>
                 <input type="submit" class="form__submit" value="Entrar" name="registro">
 
             </div>
-        </form>   
+        </form>
+
+        <div>
+           <video autoplay muted preload loop src="./video/plantas.mp4"></video>
+        </div>
         
     </section>
     <footer id="footer">
